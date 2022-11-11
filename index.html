@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@600&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/style.css"/>
+  <script src="/js/main.js" defer> </script>
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav1">
+      <img src="/images/logo.svg" alt="logo" class="logo" width="150px">
+      <a href="#">Collections </a><a href="#">Men</a><a href="#"> Women</a><a href="#"> About</a><a href="#">Contact</a>
+    
+    </div>
+    <div class="nav2">
+      <button id="cartContent"><img src="/images/icon-cart.svg" alt="cart icon" class="cart"></button>
+      <img src="/images/image-avatar.png" alt="profile" class="profile-picture" width="32px">
+   </div>
+  </header>
+
+ <div class="container">
+    <div class="text">
+      <p class="logo-text">Sneaker Company</p>
+      <h1 class="fall-edition">Fall Limited Edition Sneakers</h1>
+      <p class="description">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+      <div class="price">
+        <p class="price">$125.00</p>
+        <p class="discount">50%</p>
+      </div>
+    <p class="old-price">$250.00</p>
+       <div class="container2">
+          <div class="count">
+            <button id="plus">+</button>
+            <p id="numberPlace"> 0</p>
+            <button id="minus">-</button>
+          </div>
+          <div class="buy">
+            <button id="addtocart">Add to cart <i class="fa-solid fa-cart-shopping"></i></button>
+            <button id="like"><i class="fa-solid fa-heart"></i></button>
+          </div>
+        </div>
+      
+    </div>
+    <div class="sneaker"> 
+      <img src="/images/image-product-1.jpg" alt="sneakers" width="250px" class="main">
+      <img src="/images/image-product-1.jpg" alt="sneakers" width="50px" class="second">
+      <img src="/images/image-product-2.jpg" alt="sneakers" width="50px">
+      <img src="/images/image-product-3.jpg" alt="sneakers" width="50px">
+      <img src="/images/image-product-4.jpg" alt="sneakers" width="50px">
+    </div>
+  </div>
+  
+</body>
+</html>

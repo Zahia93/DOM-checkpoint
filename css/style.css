@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+}
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150px;
+}
+.logo {
+    margin:auto ;
+}
+.nav2 {
+    margin-right: 150px;
+}
+.cart {
+    margin-right: 50px;
+}
+a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+    animation: 0.3ms;
+}
+
+/*end of header styling*/
+
+/*start on main section styling*/
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+/*start styling of sneaker display*/
+.sneaker {
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: 80px 80px 80px 80px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.main {
+    grid-column-start: 1;
+    grid-column-end: 5 ;
+    margin: auto;
+}
+.second {
+    grid-column-start: -5;
+    grid-column-end: -4 ; 
+}
+img {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/*end styling of sneaker display*/
+/*satrt styling of sneakers description*/
+.logo-text {
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+}
+.fall-edition, .description{
+    width: 420px;
+}
+.description {
+    color: grey;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+p.price {
+    font-weight: 700;
+    font-size: 20px;
+}
+.discount {
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color:hsl(26, 100%, 55%);
+    border: 1px solid hsl(25, 100%, 94%);
+    background-color: hsl(25, 100%, 94%);
+    padding: 0 5px;
+}
+.old-price {
+    position: relative;
+    bottom: 20px;
+    color: grey;
+    text-decoration: line-through;
+    font-size: smaller;
+    font-weight: 600;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+.count {
+    display: flex;
+    flex-direction: row;
+}
+
+#numberPlace {
+    margin-left: 10px;
+}
+#plus , #minus {
+    color: hsl(26, 100%, 55%);
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+button {
+    padding: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#addtocart {
+    color: white;
+    font-weight:bolder;
+    border: 1px solid hsl(26, 100%, 55%);
+    border-radius: 10px;
+    background-color: hsl(26, 100%, 55%);
+    padding: 10px 40px;
+    margin-left: 30px;
+    
+}
+.fa-heart {
+ font-size: 20px;
+}
+/*end of styling of sneakers description*/
+
